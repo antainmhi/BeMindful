@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"> </script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="style.css">
+
+
+        <title>Be Mindful</title>
+    </head>
+    <body>
+        <!-- Navbar-->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+            <div class="container">
+                <a href="#" class="navbar-brand"><img src="images/zenOrange.png"></a>
+                <!-- Hamburger Menu / Button Links-->
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navmenu"
+                    >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar links-->
+                <div class="collapse navbar-collapse" id ="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#classes" class="nav-link">Classes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#gallery" class="nav-link">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End of Navbar-->
+
+        <!-- Landing Section -->
+        <section id="home" class="bg-dark text-light p-5 pt-lg-5 text-center text-sm-start">
+            <div class="container">
+                <div class="d-md-flex allign-items-center justify-content-between">
+                    <div class="py-5">
+                        <h1>Welcome To <span class="text-warning">Be Mindful</h1>
+                            <p class="lead my-4">
+                                We are a wellness clinic offering classes in mediation, yoga and mindfulness. We also run a number
+                                of courses and talks over the course of the year focusing on improving mental health. 
+                                Have a <span class="text-warning">Lovely Day.</span>
+                            </p>
+                            <button class="btn btn-primary btn-lg" onclick="newsLetter()">For More Info Please Sign Up To Our Newsletter</button>
+                        </div>
+                    <img class= "img-fluid w-50 d-none d-md-block" src="images/flowers.png" alt="Flower Design">
+                </div>
+            </div>
+        </section>
+        <!-- End of Landing-->
+
+        
+
+        <!-- Classes Section-->
+        <section id ="classes" class="p-5">
+            <div class="container">
+                <div class="text-warning text-center">
+                    <h1>Classes</h1>
+                    <div class="row text-center g-4 py-5">
+                        <!--Meditation Card-->
+                        <div class="col-lg">
+                            <div class="card bg-dark text-light">
+                                <div class="card-body text-center">
+                                    <div class="h1 mb-3">
+                                        <div class="icon"><img src="./images/zenOrange.png" alt="Zen Symbol Logo"></div>
+                                    </div>
+                                        <h3 class="card-title mb-3">Meditation</h3>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a augue eget nibh varius euismod.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a augue eget nibh varius euismod.  
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Yoga Card-->
+                        <div class="col-lg">
+                            <div class="card bg-secondary text-light">
+                                <div class="card-body text-center">
+                                    <div class="h1 mb-3">
+                                        <div class="icon"><img src="./images/zenOrange.png" alt="Zen Symbol Logo"></div>
+                                    </div>
+                                        <h3 class="card-title mb-3">Yoga</h3>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a augue eget nibh varius euismod. 
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a augue eget nibh varius euismod.  
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <!--Mindfulness Card-->
+                        <div class="col-lg">
+                            <div class="card bg-dark text-light">
+                                <div class="card-body text-center">
+                                    <div class="h1 mb-3">
+                                        <div class="icon"><img src="./images/zenOrange.png" alt="Zen Symbol Logo"></div>
+                                    </div>
+                                        <h3 class="card-title mb-3">Mindfulness</h3>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a augue eget nibh varius euismod.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a augue eget nibh varius euismod. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of Classes Section -->
+
+       
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <div class="container">
+                <div class="text-warning text-center">
+                    <!--Gallery-->
+                    <h1>Gallery</h1>
+                    <!--1st row of images-->
+                    <div class="row">
+                        <div id ="zoom" class="col-lg gy-5">
+                            <img id="img1" src="images/img11.png" class="img-fluid" onclick="openFullScreen()" alt="flower">
+                        </div>
+                        <div id ="box" class="col-lg gy-5">
+                            <img src="images/img12.png" class="img-fluid" alt="yoga">
+                        </div>
+                        <div id ="box" class="col-lg gy-5">
+                            <img src="images/img15.png" class="img-fluid" alt="buddhist stones">
+                        </div>
+                    </div>
+                    <!--Second row of images-->
+                    <div class="row">
+                        <div id ="box" class="col-lg gy-5">
+                                <img src="images/steppingStones.png" class="img-fluid" alt="stepping stones">
+                            </div>
+                            <div id="box" class="col-lg gy-5">
+                                <img src="images/img13.png" class="img-fluid" alt="buddha statue">
+                            </div>
+                            <div id="box" class="col-lg gy-5">
+                                <img src="images/img14.png" class="img-fluid" alt="candles">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <!--End of Gallery Section-->
+       
+
+        <!-- About Us Section -->
+        <section id="about" class="p-5">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md">
+                        <img src="images/medDraw.png" class="img-fluid" alt="pencil image of a person meditating">
+                    </div>
+                    <div class="col-md p-5">
+                        <h2>About Us</h2>
+                        <p class="lead py-3">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan porttitor orci vel eleifend. Ut eget elit a libero ultricies varius non id justo. 
+                            Vivamus vehicula feugiat rutrum. Quisque tempus elementum luctus. Vivamus finibus lorem porta tincidunt interdum. Ut nec nisi orci. Nullam mattis suscipit lorem nec malesuada. 
+                            Integer tincidunt eget mi ut placerat. Ut iaculis bibendum nisi, ac sagittis magna hendrerit aliquet. Nullam mi nulla, feugiat quis eleifend sit amet, luctus ac leo. 
+                            Proin ultricies nulla leo, sit amet viverra augue posuere vitae. Vestibulum lacinia condimentum nisi, ac condimentum velit vestibulum a. 
+                            Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas scelerisque dignissim enim, a mollis mi euismod a. 
+                            Nulla interdum nibh vestibulum dictum fringilla. Etiam rhoncus eget mauris non imperdiet.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- End of About Us Section -->
+
+         <!-- Contact Section -->
+         <section id="contact" class="bg-primary text-light p-5">
+            <div class="container">
+                <div class="d-md-flex allign-items-cemter py-5">
+                     <h3 class="mb-3 mb-md-0 text-warning">Join Now To Book Classes </h3>
+                </div>
+                <div class="input-check bg-primary">
+                    <!--Form-->
+                    <form name ="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                        <div class="mb-3">
+                            <label for="firstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="firstName" name="fname" aria-describedby="firstnameHelp">
+                        </div>
+                        <div id="lastname" class="mb-3">
+                            <label for="lastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" aria-describedby="lastnameHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="phoneNum" class="form-label">Phone Number</label>
+                            <input type="text" class="form-control" id="phoneNum" aria-describedby="phoneNumHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputEmail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="inputEmai1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text text-dark">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                                Agree to terms and conditions
+                            </label>
+                            <div class="invalid-feedback">
+                                You must agree before submitting.
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-warning" type="submit">Submit form</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- End of Newsletter -->
+
+        <!-- Footer -->
+        <footer class="p-5 bg-dark text-white text-center position-relative">
+            <div class="container">
+                <p class="lead">Cpoyright &copy; 2021 Killian Brannigan</p>
+
+               <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                   <i class="bi bi-arrow-up-circle h1"></i>
+               </a>
+            </div>
+        </footer>
+        <!--End of Footer-->
+
+
+        
+  
+
+
+
+       
+        <script src="main.js"></script>
+    </body>
+</html>

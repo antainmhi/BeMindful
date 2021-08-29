@@ -1,0 +1,16 @@
+/* Pushes body down below Navbar*/
+body::before{
+    display: block;
+    content: '';
+    height:50px;
+}
+
+
+/* Media Queries*/
+
+/*Newletter input section will half in size on medium screens & up*/
+@media(min-width: 768px){
+    .input-check{
+        width: 50%;
+    }
+}
